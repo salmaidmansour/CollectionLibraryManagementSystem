@@ -54,3 +54,22 @@ public class LibraryService {
         });
     }
 }
+/*
+Quand utiliser for ou forEach ?
+For : Plus "manuel", utile quand tu veux un contrôle précis (index ou modification).
+ForEach : Plus lisible, idéal pour lire ou afficher.
+
+
+
+
+Un Stream est un outil pour manipuler des données (par exemple, une liste) sans écrire beaucoup de code
+ les Streams en Java ne modifient pas directement les collections existantes, mais créent de nouvelles données transformées
+
+ Stream : utilisé pour manipuler les données sans modifier leur source.
+Cela préserve la collection initiale tout en produisant une nouvelle version transformée (ex. : filtrée, triée, ou transformée).
+Avantages : évite les effets de bord, rend le code plus lisible, favorise la réutilisation des données d'origine.
+
+this fait référence à l'objet courant.
+
+
+ */

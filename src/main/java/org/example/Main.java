@@ -31,3 +31,13 @@ public class Main {
 
     }
 }
+
+/*
+4. Classe Main : Point d’entrée
+Que fait cette classe ?
+Crée un service LibraryService.
+Ajoute des livres et des utilisateurs.
+Effectue des emprunts.
+Affiche les listes.
+
+ */
